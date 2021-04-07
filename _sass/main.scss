@@ -20,6 +20,7 @@ body {
     background-color: var(--opacity-5-color);
     padding: 1.2em;
     margin: auto;
+    display: flex;
 
     a { 
         color: var(--text-color);
@@ -30,6 +31,10 @@ body {
     .currentNavItem{
         color: var(--primary-color);
         font-weight: bold;
+    }
+
+    .branding {
+        display: none;
     }
 }
 
@@ -93,6 +98,12 @@ body {
             flex-flow: column;
             justify-content: center;
         }
+
+        .hero-introduction {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
     }
 
     .square {
@@ -105,6 +116,15 @@ body {
         nav {
             width: 80%;
             margin:  auto;
+        }
+
+        .branding {
+            display: inline-block;
+            cursor: pointer;
+            img {
+                width: 28px;
+                height: 28px;
+            }
         }
 
     }
