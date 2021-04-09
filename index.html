@@ -21,3 +21,21 @@ title: MyHome
         </div>
     </div>
 </div>
+<div class="career">
+    <h1>Lebenslauf</h1>
+    <ul>
+        {% for item in site.data.career %}
+        <li>
+            <div class="line-container">
+                <div class="circle"></div>
+                <div class="line"></div>
+            </div>
+            <div>
+                <h3>{{ item.year }}</h3>
+                <p>{{ item.position }}</p>
+                <p>{{ item.description }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
