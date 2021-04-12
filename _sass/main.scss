@@ -85,21 +85,23 @@ body {
 
 .career {
     
-   
-    display: block;
     margin: auto;
     padding-bottom: 5em;
+
+    h1  {
+        margin-left: 1.3em;
+    } 
     
     ul {
         list-style-type: none;
-        margin: auto;
+        
         
         li {
 
             display: flex;
             flex-direction: row;
             width: 60%;
-            margin: auto;
+            
 
             h3 {
                 margin: 0;
@@ -127,10 +129,6 @@ body {
 
             }
         }
-    }
-
-    h1 {
-        text-align: center;
     }
 }
 
@@ -184,5 +182,9 @@ body {
 
     .career {
         width: 800px;
+
+        h1  {
+            margin-left: unset;
+        } 
     }
 }

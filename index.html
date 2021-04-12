@@ -3,39 +3,41 @@ layout: default
 title: MyHome
 ---
 
-<div class="hero">
-    <div class="hero-me square">
-        <div class="content">
-            <img src="/assets/img/avatar.png" alt="Avatar" />
-            <h1>
-                Hi, ich bin Kay, </br>
-                Softwareentwickler
-            </h1>
+<div class="home-container">
+    <div class="hero">
+        <div class="hero-me square">
+            <div class="content">
+                <img src="/assets/img/avatar.png" alt="Avatar" />
+                <h1>
+                    Hi, ich bin Kay, </br>
+                    Softwareentwickler
+                </h1>
+            </div>
+        </div>
+        <div class="hero-introduction square">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+                </div>
         </div>
     </div>
-    <div class="hero-introduction square">
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
-        </div>
+    <div class="career">
+        <h1>Lebenslauf</h1>
+        <ul>
+            {% for item in site.data.career %}
+            <li>
+                <div class="line-container">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <h3>{{ item.year }}</h3>
+                    <p>{{ item.position }}</p>
+                    <p>{{ item.description }}</p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
-</div>
-<div class="career">
-    <h1>Lebenslauf</h1>
-    <ul>
-        {% for item in site.data.career %}
-        <li>
-            <div class="line-container">
-                <div class="circle"></div>
-                <div class="line"></div>
-            </div>
-            <div>
-                <h3>{{ item.year }}</h3>
-                <p>{{ item.position }}</p>
-                <p>{{ item.description }}</p>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
 </div>
