@@ -4,15 +4,7 @@
         "url": "/"
     },
     {
-        "name": "About",
-        "url": "/about.html"
-    },
-    {
         "name": "Blog",
         "url": "/blog.html"
-    },
-    {
-        "name": "Staff",
-        "url": "/Staff.html"
     }
 ]

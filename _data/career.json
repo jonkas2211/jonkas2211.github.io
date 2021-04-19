@@ -2,21 +2,25 @@
     {
         "year": "seit 2019",
         "position": "Student",
+        "company" : "Wrede GmbH/FHDW",
         "description": "Duales Studium Angewandte Informatik"
     },
     {
         "year": "2019",
         "position": "Softwareentwickler",
+        "company" : "Wrede GmbH",
         "description": "Angestellter Softwareentwickler im SAP Umfeld"
     },
     {
         "year": "2017",
         "position": "Ausbildung",
+        "company" : "Wrede GmbH",
         "description": "Fachinformatiker fuer Anwendungsentwicklung"
     },
     {
         "year": "2017",
         "position": "Nebenjob",
+        "company" : "Wrede GmbH",
         "description": "Softwareentwickler"
     }
 ]

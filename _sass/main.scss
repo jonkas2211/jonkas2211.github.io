@@ -5,6 +5,10 @@
     --text-color: #DDDDDD;
 }
 
+a {
+    color: var(--primary-color);
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -129,6 +133,32 @@ body {
 
             }
         }
+    }
+}
+
+.blog {
+    padding: 1.2em;
+
+    ul {
+
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            background-color: var(--opacity-5-color);
+            padding: 1em;
+            margin: 1em;
+        }
+    }
+}
+
+.post {
+    background-color: var(--opacity-5-color);
+    margin: 1.2em;
+    padding: 1.2em;
+
+    h1 {
+        color: var(--primary-color);
     }
 }
 
