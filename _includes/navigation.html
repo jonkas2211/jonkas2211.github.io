@@ -1,3 +1,9 @@
+
+{% assign navData = site.data.navigation.simple %}
+{% if layout.navType == "advanced" %}
+    {% assign navData = site.data.navigation.advanced %}
+{% endif %}
+
 <div class="navContainer">
     <div class="branding">
         <a href="index.html">
@@ -5,7 +11,7 @@
         </a>
     </div>
     <nav>
-        {% for item in site.data.navigation %}
+        {% for item in navData %}
             <a href="{{ item.url }}" {% if page.url == item.url %}class="currentNavItem"{% endif %} >{{ item.name }}</a>
         {% endfor %}
     </nav>

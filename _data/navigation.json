@@ -1,10 +1,29 @@
-[
-    {
-        "name": "Home",
-        "url": "/"
-    },
-    {
-        "name": "Blog",
-        "url": "/blog.html"
-    }
-]
+{
+
+    "simple":
+    [
+        {
+            "name": "Home",
+            "url": "/"
+        },
+        {
+            "name": "Blog",
+            "url": "/blog.html"
+        }
+    ],
+    "advanced": 
+    [
+        {
+            "name": "Home",
+            "url": "/"
+        },
+        {
+            "name": "Blog",
+            "url": "/blog.html"
+        },
+        {
+            "name": "Blog2",
+            "url": "/blog.html"
+        }
+    ]
+}
