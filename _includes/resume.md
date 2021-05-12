@@ -1,0 +1,3 @@
+Mein Name ist Kay Joe Kahmann und ich arbeite zurzeit als Softwareentwicker. Dabei studiere ich dual angewandte Informatik an der Fachhochschule der Wirtschaft (FHDW) in Paderborn. 
+Ich interessiere mich sehr für mobile Entwicklung mit Xamarin.Forms, Clean Architecture und agile Softwareentwicklung. 
+Primär benutze ich die Programmiersprache C#, dabei habe ich großes Interesse am Lernen neuer Sprachen.

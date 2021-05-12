@@ -20,10 +20,6 @@
         {
             "name": "Blog",
             "url": "/blog.html"
-        },
-        {
-            "name": "Blog2",
-            "url": "/blog.html"
         }
     ]
 }

@@ -1,26 +1,26 @@
 [
     {
-        "year": "seit 2019",
+        "year": "seit Oktober 2019",
         "position": "Student",
-        "company" : "Wrede GmbH/FHDW",
+        "company" : "Wrede GmbH Softwarekonzepte & FHDW Paderborn",
         "description": "Duales Studium Angewandte Informatik"
     },
     {
-        "year": "2019",
+        "year": "Januar 2019",
         "position": "Softwareentwickler",
-        "company" : "Wrede GmbH",
+        "company" : "Wrede GmbH Softwarekonzepte",
         "description": "Angestellter Softwareentwickler im SAP Umfeld"
     },
     {
-        "year": "2017",
+        "year": "August 2017",
         "position": "Ausbildung",
-        "company" : "Wrede GmbH",
-        "description": "Fachinformatiker fuer Anwendungsentwicklung"
+        "company" : "Wrede GmbH Softwarekonzepte",
+        "description": "Fachinformatiker für Anwendungsentwicklung"
     },
     {
-        "year": "2017",
+        "year": "März 2017",
         "position": "Nebenjob",
-        "company" : "Wrede GmbH",
+        "company" : "Wrede GmbH Softwarekonzepte",
         "description": "Softwareentwickler"
     }
 ]
