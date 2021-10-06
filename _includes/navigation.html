@@ -11,7 +11,17 @@
     </div>
     <nav>
         {% for item in navData %}
-            <a href="{{ item.url }}" {% if page.url == item.url %}class="currentNavItem"{% endif %} >{{ item.name }}</a>
+            {% assign isCurrentNavItem = false %}
+            {% if page.url == item.url %}
+                {% assign isCurrentNavItem = true %}
+            {% endif %}
+
+            <!-- makes the blog posts can highlight own navigation entries. -->
+            {% if item.name == page.navigationItem %}
+                {% assign isCurrentNavItem = true %}
+            {% endif %}
+
+            <a href="{{ item.url }}" {% if isCurrentNavItem == true %}class="currentNavItem"{% endif %} >{{ item.name }}</a>
         {% endfor %}
     </nav>
 </div>

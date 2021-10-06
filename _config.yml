@@ -1,6 +1,8 @@
 collections:
   authors:
     output: true
+  posts:
+    permalink: /blog/:title/
 
 defaults:
   - scope:
@@ -13,6 +15,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      navigationItem: "Blog"
   - scope:
       path: ""
     values:
