@@ -155,11 +155,17 @@ body {
 
 .post {
     background-color: var(--opacity-5-color);
-    margin: 2.2em;
+    margin: 1.2em auto 1.2em auto;
     padding: 1.2em;
+    
+    max-width: 1200px;
 
     h1 {
         color: var(--primary-color);
+    }
+
+    .post-content{
+        text-align: justify;
     }
 }
 
@@ -223,5 +229,9 @@ body {
         h1  {
             margin-left: unset;
         } 
+    }
+
+    .post{
+        padding: 1.2em 5em;
     }
 }
