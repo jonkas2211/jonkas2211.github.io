@@ -1,5 +1,15 @@
 [
     {
+        "year": "seit Oktober 2022",
+        "description": "Studium IT-Management (M.Sc.)",
+        "company" : "Wrede GmbH Softwarekonzepte & FHDW"
+    },
+    {
+        "year": "Oktober 2022",
+        "position": "stellv. Teammanager Softwareentwicklung",
+        "company" : "Wrede GmbH Softwarekonzepte"
+    },
+    {
         "year": "März 2022",
         "position": "Scrum Master",
         "company" : "Wrede GmbH Softwarekonzepte"
@@ -10,7 +20,7 @@
         "company" : "Wrede GmbH Softwarekonzepte"
     },
     {
-        "year": "seit Oktober 2019",
+        "year": "Oktober 2019",
         "position": "Student",
         "company" : "Wrede GmbH Softwarekonzepte & FHDW Paderborn",
         "description": "Duales Studium Angewandte Informatik"
