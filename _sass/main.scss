@@ -17,6 +17,11 @@ body {
     color: var(--text-color);
 }
 
+.figure-title {
+    color: var(--primary-color);
+    text-align: center;
+}
+
 .container {
     height: 100vh;
 }
@@ -139,7 +144,8 @@ body {
 
 .blog {
     padding: 1.2em;
-
+    font-size: 21px;
+    line-height: 150%;
     ul {
 
         padding: 0;
@@ -157,15 +163,23 @@ body {
     background-color: var(--opacity-5-color);
     margin: 1.2em auto 1.2em auto;
     padding: 1.2em;
-    
+    line-height: 150%;
+    font-size: 21px;
     max-width: 1200px;
 
     h1 {
+        line-height: 150%;
         color: var(--primary-color);
     }
 
     .post-content{
         text-align: justify;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
